@@ -1,0 +1,40 @@
+###
+GET http://localhost:4004/odata/v4/po/SalesOrder
+
+
+###
+GET http://localhost:4004/odata/v4/zapi-sales-order-srvsample/A_SalesOrder
+
+###
+POST http://localhost:4004/odata/v4/zapi-sales-order-srvsample/A_SalesOrder
+Content-Type: application/json
+Accept: application/json
+
+{
+      "SalesOrder": "0005555899",
+      "SalesOrderDate": "2017-10-06"
+}
+
+###
+POST http://localhost:4004/odata/v4/zapi-sales-order-srvsample/A_SalesOrder
+Content-Type: application/json
+Accept: application/json
+ 
+{
+  "SalesOrder": "0005089099",
+  "SalesOrderType": "OR",
+  "SalesOrganization": "1710",
+  "DistributionChannel": "10",
+  "OrganizationDivision": "00",
+  "SoldToParty": "17100003",
+  "PurchaseOrderByCustomer": "XYZ",
+  "to_Item": {
+    "results": [
+      {
+        "Material": "TG11",
+        "RequestedQuantity": "5",
+        "RequestedQuantityUnit": "PC"
+      }
+    ]
+  }
+}

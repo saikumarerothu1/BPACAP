@@ -1,0 +1,6 @@
+VendorID,VendorCode,VendorName,ContactEmail,Flag,createdAt,createdBy,modifiedAt,modifiedBy
+660e8400-e29b-41d4-a716-446655440001,1001,Tech Solutions Pvt Ltd,contact@techsolutions.com,Active,2024-01-10T09:00:00Z,ADMIN,2024-01-10T09:00:00Z,ADMIN
+660e8400-e29b-41d4-a716-446655440002,1002,Global Electronics Inc,sales@globalelectronics.com,Active,2024-01-10T09:15:00Z,ADMIN,2024-01-10T09:15:00Z,ADMIN
+660e8400-e29b-41d4-a716-446655440003,1003,Prime Distributors,info@primedist.com,Active,2024-01-10T09:30:00Z,ADMIN,2024-01-10T09:30:00Z,ADMIN
+660e8400-e29b-41d4-a716-446655440004,1004,Metro Wholesale Hub,metro@wholesale.com,Active,2024-01-10T09:45:00Z,ADMIN,2024-01-10T09:45:00Z,ADMIN
+660e8400-e29b-41d4-a716-446655440005,1005,Digital World Corporation,support@digitalworld.com,Inactive,2024-01-10T10:00:00Z,ADMIN,2024-01-10T10:00:00Z,ADMIN

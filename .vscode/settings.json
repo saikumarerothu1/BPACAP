@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "SOData",
+            "database": "${workspaceFolder:projects}/USTSO-SAIKUMAR/db.sqlite"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "POData",
+            "database": "${workspaceFolder:projects}/USTPO-SAIKUMAR/db.sqlite"
+        }
+    ]
+}
