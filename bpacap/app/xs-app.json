@@ -1,0 +1,19 @@
+{
+  "welcomeFile": "bpaproject/webapp/index.html",
+  "authenticationMethod": "route",
+  "sessionTimeout": 100,
+  "pluginMetadataEndpoint": "/metadata",
+  "routes": [
+    {
+      "source": "^/bpaproject/webapp/(.*)",
+      "target": "$1",
+      "localDir": "bpaproject/webapp/",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "^/(.*)$",
+      "destination": "srv-api",
+      "authenticationType": "xsuaa"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+po_id,po_code,po_types,po_category,po_item,po_description,po_deliverydate,po_subcategory,po_netamount,po_quantity,approver,Approver_Status,db_status,is_active,is_changed
+po001,PC-1001,Standard,Electronics,ITEM-01,"Laptop purchase",2025-01-05,Computers,55000.00,10,john.doe,Pending,false,false,false
+po002,PC-1002,Service,Maintenance,ITEM-22,"AMC for printers",2025-02-12,Office Equipment,12000.50,5,anna.smith,Approved,true,true,false
+po003,PC-1003,Standard,Furniture,ITEM-10,"Office chairs",2025-03-20,Seating,25000.00,20,mike.jordan,Rejected,false,false,true
+po004,PC-1004,Standard,Electronics,ITEM-02,"Desktop purchase",2025-04-15,Computers,45000.00,8,jane.doe,Pending,false,false,false

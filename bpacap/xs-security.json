@@ -1,0 +1,41 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.bpa_admin",
+      "description": "bpa_admin"
+    },
+    {
+      "name": "$XSAPPNAME.bpa_viewer",
+      "description": "bpa_viewer"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "bpa_admin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.bpa_admin"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "bpa_viewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.bpa_viewer"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "authorities": [
+    "$ACCEPT_GRANTED_AUTHORITIES"
+  ],
+  "oauth2-configuration": {
+    "token-validity": 900,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ]
+  },
+  "xsenableasyncservice": "true"
+}
