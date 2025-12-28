@@ -1,1 +1,0 @@
-using ZAPI_SALES_ORDER_SRVSampleService as service from '../../srv/ZAPI_SALES_ORDER_SRV';
