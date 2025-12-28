@@ -1,0 +1,41 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Adminview",
+      "description": "Adminview"
+    },
+    {
+      "name": "$XSAPPNAME.Productviewer",
+      "description": "Productviewer"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Adminview",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Adminview"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "Productviewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.Productviewer"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "authorities": [
+    "$ACCEPT_GRANTED_AUTHORITIES"
+  ],
+  "oauth2-configuration": {
+    "token-validity": 600,
+    "redirect-uris": [
+      "https://*.cfapps.us10-001.hana.ondemand.com/login/callback"
+    ]
+  },
+  "xsenableasyncservice": "true"
+}
