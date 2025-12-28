@@ -1,6 +1,0 @@
-PO_ID,vendorCode,poNumber,poDate,currency,createdBy,vendorName,deliveryDate,paymentTerms,shippingAddress,billingAddress,totalAmount,taxAmount,freightCharges,poStatus,remarks,approvedBy,approvedDate,lastModifiedBy,lastModifiedDate,referenceNumber
-c3b2f3a9-4f8e-4d57-8c2e-1b6c61f2ef10,V001,PO1001,2025-01-10,INR,ADMIN,Vendor One,2025-01-20,NET30,"Hyderabad","Hyderabad",15000,2700,300,Open,"Urgent order",Manager1,2025-01-11,Admin1,2025-01-12,REF1001
-7a9bb0d2-48ce-4175-b72f-2877cd7a987a,V002,PO1002,2025-01-11,USD,ADMIN,Vendor Two,2025-01-22,NET45,"Bangalore","Bangalore",22000,3960,500,Approved,"Bulk purchase",Manager2,2025-01-12,Admin2,2025-01-13,REF1002
-ac11e984-0ed3-4b3c-a295-c2a7d9e33cd8,V003,PO1003,2025-01-12,EUR,ADMIN,Vendor Three,2025-01-25,NET15,"Chennai","Chennai",18000,3240,400,Closed,"Delivered",Manager3,2025-01-13,Admin3,2025-01-14,REF1003
-db7f43d3-8035-4b21-af1a-e7f4b7eb3f03,V004,PO1004,2025-01-13,INR,ADMIN,Vendor Four,2025-01-26,NET30,"Pune","Pune",26000,4680,600,Open,"Priority",Manager4,2025-01-14,Admin4,2025-01-15,REF1004
-f4c9294b-3bde-4f0b-9d0b-7b5b8d75f014,V005,PO1005,2025-01-14,INR,ADMIN,Vendor Five,2025-01-28,NET60,"Mumbai","Mumbai",30000,5400,700,Pending,"Awaiting approval",Manager5,2025-01-15,Admin5,2025-01-16,REF1005
